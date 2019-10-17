@@ -39,7 +39,18 @@ public class BattleShip {
 	    	shoot(letter, number);
 	    	checkGameOver();	    	
 	    }
+	    
+	    showResult();
 	     
+	}
+
+	private static void showResult() {		
+		if (sunkShipCounter >= NUM_SHIPS) {
+			System.out.println("You WIN !!!!");
+		} else {
+			System.out.println("No remaining shots :-(");
+		}
+		
 	}
 
 	private static void checkGameOver() {
