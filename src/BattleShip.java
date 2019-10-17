@@ -4,10 +4,10 @@ public class BattleShip {
 	
 	// This is a comment
 	
-	public static final int SHIP_SYMBOL = 'S';
-	public static final int WATER_SYMBOL = 'O';
-	public static final int SUNK_SHIP_SYMBOL = 'X';
-	public static final int EMPTY_SYMBOL = '.';
+	public static final char SHIP_SYMBOL = 'S';
+	public static final char WATER_SYMBOL = 'O';
+	public static final char SUNK_SHIP_SYMBOL = 'X';
+	public static final char EMPTY_SYMBOL = '.';
 	
 	public static final int MAX_SHOTS = 30;
 	public static final int NUM_SHIPS = 10;
