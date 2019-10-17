@@ -84,6 +84,7 @@ public class BattleShip {
 	}
 
 	private static void showResult() {		
+		printMatrix(false);
 		if (sunkShipCounter >= NUM_SHIPS) {
 			System.out.println("You WIN !!!!");
 		} else {
